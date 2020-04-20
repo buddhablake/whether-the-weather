@@ -6,7 +6,7 @@ let zipButton = document.querySelector(".zip-button")
 let zipInput = document.querySelector(".zip-input")
 
 
-// Stores users ip address
+// Stores users ip addresss
 let userIP = document.querySelector(".userip").textContent;
 
 // event listeners
