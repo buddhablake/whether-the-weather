@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Whether The Weather</title>
+</head>
+<body>
+    <!-- Location -->
+    <div class="location">
+        <h1 class="user-location"></h1>
+        <p class="icon"></p>
+    </div>
+
+    <!-- Temperature -->
+    <div class="weather">
+        <div class="degree-section">
+            <h2 class="temperature-degree"></h2>
+            <span>F</span>
+        </div>
+        <div class="weather-condition"></div>
+      
+    </div>
+  
+  <div class="clock"></div>
+  
+  <form class="zipcode">
+    <h3>Not your city? Enter your zipcode for more accurate weather.</h3>
+    <input type="text" class="zip-input">
+    <button type="submit" class="zip-button">Update</button>
+  </form>
+  
+  <p class="userip"><script src="https://l2.io/ip.js"></script></p>
+  <script src="./app.js"></script>
+</body>
+</html>

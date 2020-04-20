@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+  font-size:16px;
+}
+
+.location, 
+.temperature{
+    height:30vh;
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.weather{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.degree-section span{
+    margin: 10px;
+    font-size:30px;
+
+}
+
+.degree-section h2{
+    font-size: 40px;
+
+}
+
+.weather-condition{
+    text-transform: capitalize;
+}
+
+
+.clock{
+  margin:40px;
+  font-size:1.5rem
+}
+
+input, 
+select{ 
+font-size: 100%; 
+}
+
+.zipcode{
+  text-align:center;
+  margin-top:40px;
+}
+
+.zipcode input{
+  margin:20px;
+  height:1.5rem;
+}
+
+.zipcode button{
+  padding:7px;
+  border-radius:15px;
+  background:white;
+}
+
+.userip{
+  display:none;
+}
